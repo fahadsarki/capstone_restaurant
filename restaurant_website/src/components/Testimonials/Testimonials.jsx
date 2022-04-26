@@ -1,5 +1,5 @@
 import React from 'react'
-import { images } from '../../constants'
+import { guests } from '../../constants'
 import './Testimonials.css'
 
 const Testimonials = () => {
@@ -7,11 +7,14 @@ const Testimonials = () => {
     <>
     <div className='app__testimonials'>
         <h1>Our Testimonials</h1>
-        <img src={images.guest01} alt='a happy guest' />
-        <p>Exceptional customer service and finger licking dishes! </p> <br/>
-
-        <img src={images.guest02} alt='a guest' />
-        <p>You have to try their Afang soup, simply breath taking. </p>    
+        {guests.map((item) => (
+          <div>
+          <img src={item.name} alt='guest'/>
+          <p>{item.guestName}</p>
+          <p>{item.guestTestimonial}</p>
+          </div>
+          
+        ))}
     </div>
     </>
   )
