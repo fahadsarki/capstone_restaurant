@@ -1,0 +1,7 @@
+.app__contact {
+    position: relative;
+    top: 650px;
+    left: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,7 @@
+.app__about {
+    position: relative;
+    top: 200px;
+    left: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+}

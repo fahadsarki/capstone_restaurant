@@ -1,0 +1,36 @@
+.app__navbar-links{
+    width: 100%;
+  
+    padding: 1rem 2rem;
+    background: rgba(255,255, 255, 0.25);
+    border: 1px solid rgba (255, 255, 255, 0.18);
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+    position: fixed;
+  
+  
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  
+    z-index: 1;
+  }
+  
+  a {
+    color: var(--gray-color);
+    text-decoration: none;
+  
+    text-transform: uppercase;
+    font-weight: 500;
+  
+    transition: all 0.3s ease-in-out;
+  
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  }
+  

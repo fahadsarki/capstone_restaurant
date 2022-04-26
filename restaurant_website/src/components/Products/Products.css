@@ -1,0 +1,14 @@
+.app__products {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+img, p {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }

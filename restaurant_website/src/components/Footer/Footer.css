@@ -1,0 +1,7 @@
+.app__footer {
+    position: relative;
+    top: 750px;
+    left: 10px;
+    width: 100%;
+    background-color: var(--white-color);
+}
