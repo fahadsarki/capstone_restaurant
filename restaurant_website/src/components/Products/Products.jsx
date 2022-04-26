@@ -15,8 +15,7 @@ const Products = () => {
        <li>
          <img src={image.name} alt={image.foodName} />
          <p>{image.id}</p>
-         <p>{image.foodName}</p>
-        <p>{image.foodPrice}</p> 
+         <p>{image.foodName} <span> amount: {image.foodPrice} </span>  </p>
          
        </li>
      </ul>
