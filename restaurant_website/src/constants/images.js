@@ -1,12 +1,10 @@
 import amala from '../food/amala.jpeg';
 import eba from '../food/eba.jpeg';
 import egusi2 from '../food/egusi2.jpeg';
-import groupfood from '../food/groupfood.jpeg';
 import peppersoup from '../food/peppersoup.jpeg';
 import kilishi from '../food/kilishi.jpeg';
 import jollof1 from '../food/jollof1.jpeg';
 import jollof2 from '../food/jollof2.png';
-import menu01 from '../food/menu01.png';
 import pasta from '../food/pasta.jpeg';
 import poundo from '../food/poundo.jpeg';
 import riceplantain  from '../food/riceplantain.png';
@@ -41,6 +39,4 @@ export default [
    {id: 8, foodName: 'pasta', foodPrice: 'N1,500', name: pasta},
    {id: 9, foodName: 'poundo', foodPrice: 'N1,500', name: poundo},
    {id: 10, foodName: 'rice and plantain', foodPrice: 'N1,500', name: riceplantain},
-   {id: 12, groupName: 'group food', name: groupfood},
-   {id: 13, menuName: 'food menu', name: menu01},
 ];
