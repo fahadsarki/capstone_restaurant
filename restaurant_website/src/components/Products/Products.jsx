@@ -5,25 +5,24 @@ const Products = () => {
   
 
   return (
-    <>
+   <>
     <div className='app__products'>
-    <div className=''>
-   <h1>Menu</h1>
+    <h1>Menu</h1>
    <h2>Our Nigerian Cuisines</h2>
-   {images.map((image) => (
-     <ul>
-       <li>
-         <img src={image.name} alt={image.foodName} />
-         <p>{image.id}</p>
-         <p>{image.foodName} <span> amount: {image.foodPrice} </span>  </p>
-         
-       </li>
-     </ul>
+    <div className='card'>
+      {images.map((image) => (
+     <div className='card-box'>
+       <div className='card-box-image'>
+        <img src={image.name} alt={image.foodName} />
+       </div>
+       <p>{image.foodName} <span> amount: {image.foodPrice} </span>  </p>
+     <div className='btn'>
+     <button>add to cart</button>
+     </div>
+     </div>
    ))}
-   </div>
     </div>
-   
-   
+    </div>
    </>
   )
 }

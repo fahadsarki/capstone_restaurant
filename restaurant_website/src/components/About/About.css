@@ -5,3 +5,32 @@
     width: 100%;
     background-color: var(--primary-color);
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px inset green;
+    border-radius: 10px;
+}
+
+.card .card-box {
+    width: 500px;
+    height: 600px;
+    margin: 1px;
+}
+
+.card-box p {
+    position: relative;
+    line-height: 1.5;
+    font-weight: 400;
+    height: 70%;
+    text-align: center;
+    text-align: justify;
+    margin: 10px;
+}

@@ -3,18 +3,10 @@ p {
   text-align: left;
   color: var(--gray-color);
   line-height: 1.5;
-
-  @media screen and (min-width: 2000px) {
-    font-size: 1.75rem;
-  }
 }
 
 li {
   margin: 1.5rem;
   list-style: none;
   
-}
-
-.App {
-  background-color:hs;
 }
